@@ -29,7 +29,6 @@ class Wheel {
     this.tireBrand = tirebrand;
   }
 
-
 }
 
 // Export the Wheel class

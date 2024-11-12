@@ -15,7 +15,6 @@ class Cli {
   exit: boolean = false;
   isProcessing: boolean = false;  // New flag to track processing state
 
-
   // TODO: Update the constructor to accept Truck and Motorbike objects as well
   constructor(vehicles: (Car | Truck | Motorbike )[]) {
     this.vehicles = vehicles;
@@ -25,7 +24,6 @@ class Cli {
     return this.vehicles.find(vehicle => vehicle.vin === this.selectedVehicleVin);
   }
   
-
   // static method to generate a vin
   static generateVin(): string {
     // return a random string
